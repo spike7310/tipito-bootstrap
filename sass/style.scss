@@ -1,0 +1,84 @@
+#menu{
+	background: rgb(44, 62, 80);
+	padding: 10px; 
+	a{
+		font-size: 30px;
+		text-transform: uppercase;
+		font-weight: bold;
+		color: white;
+		@media (max-width: 991px){
+			font-size: 20px;
+		}
+
+	}
+
+	li{
+		a{
+			font-size: 15px;
+			&:hover{
+				color: rgb(24, 188, 156);
+			}
+
+		}
+	}
+
+	span{
+		color: white;
+	}
+
+
+}
+
+
+#portfolio{
+	background:rgb(24, 188, 156);
+	padding: 80px;
+	color: white;
+
+	h1{
+		font-size: 80px;
+		font-weight: bold;
+
+		@media (max-width: 991px){
+			font-size: 50px;
+		}
+		
+	}
+
+	h2{
+		@media (max-width: 991px){
+			font-size: 25px;
+		}
+	}
+
+	span{
+		font-size: 30px;
+	}
+}
+
+#imagenes{
+	padding-top: 60px;		
+	
+
+	h1{
+		font-size: 40px;
+		font-weight: bold;
+		text-transform: uppercase;
+		color: rgb(44, 62, 80);
+
+	}
+
+	span{
+		color: rgb(44, 62, 80);
+		font-size: 30px;
+	}
+
+	img{
+		padding: 15px;
+	}
+
+
+}
+
+
+
