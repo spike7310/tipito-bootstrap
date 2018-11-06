@@ -1,6 +1,8 @@
 #menu {
   background: #2c3e50;
   padding: 10px;
+  position: fixed;
+  width: 100%;
 }
 #menu a {
   font-size: 30px;
@@ -47,7 +49,8 @@
 }
 
 #imagenes {
-  padding-top: 60px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 #imagenes h1 {
   font-size: 40px;
@@ -70,6 +73,41 @@
   padding-bottom: 5rem;
   background-color: #2c3e50;
   color: #fff;
+}
+
+#about {
+  background: #18bc9c;
+  padding-bottom: 80px;
+  padding-top: 80px;
+  color: white;
+}
+#about h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+@media (max-width: 991px) {
+  #about h1 {
+    font-size: 50px;
+  }
+}
+#about span {
+  font-size: 30px;
+}
+#about p {
+  padding: 20px;
+  font-size: 20px;
+  text-transform: none;
+}
+#about button {
+  height: 60px;
+  width: 200px;
+  background: #18bc9c;
+  color: white;
+  border-style: solid;
+}
+#about button:hover {
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
