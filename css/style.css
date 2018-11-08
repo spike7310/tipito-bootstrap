@@ -66,15 +66,6 @@
   padding: 15px;
 }
 
-.bottom footer {
-  font-family: "Notable", sans-serif;
-  display: inline-block;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: #2c3e50;
-  color: #fff;
-}
-
 #about {
   background: #18bc9c;
   padding-bottom: 80px;
@@ -107,7 +98,37 @@
   border-style: solid;
 }
 #about button:hover {
+  background: white;
+  color: #2c3e50;
+}
+
+#form {
+  padding-bottom: 80px;
+  padding-top: 80px;
+  color: #2c3e50;
+}
+#form h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+@media (max-width: 991px) {
+  #form h1 {
+    font-size: 50px;
+  }
+}
+#form span {
+  font-size: 30px;
+}
+#form a {
+  width: 100px;
+  background: #18bc9c;
   color: white;
+  border-style: solid;
+}
+#form a:hover {
+  background: white;
+  color: #2c3e50;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -89,14 +89,7 @@
 
 
 
-.bottom footer{
-	font-family: 'Notable', sans-serif;
-	display: inline-block;
-	padding-top: 5rem;
-    padding-bottom: 5rem;
-    background-color: #2c3e50;
-    color: #fff;
-}
+
 
 #about{
 	background: rgb(24, 188, 156);
@@ -135,12 +128,47 @@
 		color: white;
 		border-style: solid;
 			&:hover{
-				color: white;
+				background: white;
+				color:rgb(44, 62, 80);
 			}
 
 	}
 
 	
+}
+
+#form{
+	padding-bottom: 80px;
+	padding-top: 80px;
+	color:rgb(44, 62, 80);
+
+	h1{
+		font-size: 50px;
+		font-weight: bold;
+		text-transform: uppercase;
+
+		@media (max-width: 991px){
+			font-size: 50px;
+		}
+		
+	}
+
+	span{
+		
+		font-size: 30px;
+
+	}
+
+	a{
+		width: 100px;
+		background: rgb(24, 188, 156);
+		color: white;
+		border-style: solid;
+			&:hover{
+				background: white;
+				color:rgb(44, 62, 80);
+			}
+		}
 }
 
 
