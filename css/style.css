@@ -131,4 +131,30 @@
   color: #2c3e50;
 }
 
+#footer {
+  background: #2c3e50;
+  color: white;
+  text-transform: uppercase;
+  padding-bottom: 70px;
+  padding-top: 70px;
+  font-weight: bold;
+}
+#footer h3 {
+  padding-bottom: 15px;
+}
+#footer p {
+  font-size: 15px;
+}
+
+.p1 {
+  line-height: 30px;
+}
+
+#copy {
+  background: #1a252f;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 /*# sourceMappingURL=style.css.map */
