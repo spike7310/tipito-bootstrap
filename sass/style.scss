@@ -7,6 +7,7 @@ body{
 	padding: 10px; 
 	position: fixed;
 	width: 100%;
+	cursor: pointer;
 	
 
 	a{
@@ -72,7 +73,8 @@ body{
 
 #imagenes{
 	padding-top: 80px;
-	padding-bottom: 80px;		
+	padding-bottom: 80px;
+	cursor: pointer;		
 	
 
 	h1{
@@ -137,6 +139,7 @@ body{
 		background: rgb(24, 188, 156);
 		color: white;
 		border-style: solid;
+		cursor: pointer;
 			&:hover{
 				background: white;
 				color:rgb(44, 62, 80);
