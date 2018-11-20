@@ -7,7 +7,6 @@ body {
   padding: 10px;
   position: fixed;
   width: 100%;
-  cursor: pointer;
 }
 #menu a {
   font-size: 30px;
@@ -15,7 +14,7 @@ body {
   font-weight: bold;
   color: white;
   font-weight: 700;
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
 }
 @media (max-width: 991px) {
   #menu a {
@@ -37,13 +36,13 @@ body {
   padding: 80px;
   color: white;
   font-weight: 700;
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
 }
 #portfolio h1 {
   font-size: 80px;
   font-weight: bold;
   font-weight: 700;
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
 }
 @media (max-width: 991px) {
   #portfolio h1 {
@@ -60,9 +59,8 @@ body {
 }
 
 #imagenes {
-  padding-top: 80px;
+  padding-top: 25px;
   padding-bottom: 80px;
-  cursor: pointer;
 }
 #imagenes h1 {
   font-size: 40px;
@@ -70,12 +68,34 @@ body {
   text-transform: uppercase;
   color: #2c3e50;
 }
+#imagenes .margen-img .img {
+  margin-bottom: 15px;
+}
 #imagenes span {
   color: #2c3e50;
   font-size: 30px;
 }
-#imagenes img {
-  padding: 15px;
+#imagenes .lupita {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  transition: 0.5s;
+}
+#imagenes .link-modal {
+  position: relative;
+  display: block;
+}
+#imagenes .lupita:hover {
+  background: rgba(24, 188, 156, 0.75);
+}
+#imagenes .lupita:hover .contenedor-lupita {
+  opacity: 0.8;
+}
+#imagenes .contenedor-lupita {
+  margin: auto;
+  color: white;
+  opacity: 0;
 }
 
 #about {
@@ -108,7 +128,6 @@ body {
   background: #18bc9c;
   color: white;
   border-style: solid;
-  cursor: pointer;
 }
 #about button:hover {
   background: white;
@@ -158,6 +177,26 @@ body {
 #footer p {
   font-size: 15px;
 }
+#footer .fa-facebook-f {
+  width: 35px;
+}
+
+li {
+  transition: 0.5s;
+}
+
+.btn-social li:hover {
+  color: #2c3e50;
+}
+
+.rounded-circle i {
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 10px;
+}
+.rounded-circle i:hover {
+  background-color: white;
+}
 
 .p1 {
   line-height: 30px;
@@ -168,6 +207,27 @@ body {
   color: white;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.modal-portfolio .modal-content {
+  border-radius: 0;
+  background-clip: border-box;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  min-height: 100%;
+  padding: 100px 0;
+  text-align: center;
+}
+.modal-portfolio h1 {
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #2c3e50;
+  text-align: center;
+}
+.modal-portfolio img {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

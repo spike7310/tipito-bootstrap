@@ -2,12 +2,13 @@
 body{
 	font-family:'Lato', sans-serif;
 }
+
+
 #menu{
 	background: rgb(44, 62, 80);
 	padding: 10px; 
 	position: fixed;
 	width: 100%;
-	cursor: pointer;
 	
 
 	a{
@@ -16,7 +17,7 @@ body{
 		font-weight: bold;
 		color: white;
 		font-weight: 700;
-    	font-family: Montserrat;
+    	font-family: Montserrat, sans-serif;
 		@media (max-width: 991px){
 			font-size: 20px;
 		}
@@ -36,23 +37,21 @@ body{
 	span{
 		color: white;
 	}
-
-
 }
 
 
 #portfolio{
-	background:rgb(24, 188, 156);
+	background: rgb(24, 188, 156);
 	padding: 80px;
 	color: white;
 	font-weight: 700;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
 
 	h1{
 		font-size: 80px;
 		font-weight: bold;
 		font-weight: 700;
-    	font-family: Montserrat;
+    	font-family: Montserrat, sans-serif;
 
 		@media (max-width: 991px){
 			font-size: 50px;
@@ -72,10 +71,8 @@ body{
 }
 
 #imagenes{
-	padding-top: 80px;
+	padding-top: 25px;
 	padding-bottom: 80px;
-	cursor: pointer;		
-	
 
 	h1{
 		font-size: 40px;
@@ -85,21 +82,42 @@ body{
 
 	}
 
+	.margen-img .img{
+		margin-bottom: 15px;
+
+	}
+
 	span{
 		color: rgb(44, 62, 80);
 		font-size: 30px;
 	}
 
-	img{
-		padding: 15px;
+	.lupita{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		transition: 0.5s;
 	}
+	.link-modal{
+		position: relative;
+		display: block;
 
-
+	}	
+	.lupita:hover{			
+		background: rgba(24, 188, 156, 0.75);
+		.contenedor-lupita{
+				opacity: 0.8;
+		
+		}
+		
+	}
+	.contenedor-lupita{
+		margin: auto;
+		color: white;
+		opacity: 0;
+	}
 }
-
-
-
-
 
 
 
@@ -139,7 +157,6 @@ body{
 		background: rgb(24, 188, 156);
 		color: white;
 		border-style: solid;
-		cursor: pointer;
 			&:hover{
 				background: white;
 				color:rgb(44, 62, 80);
@@ -204,12 +221,26 @@ body{
 
 
 	}
-
-	
-
-	
+	.fa-facebook-f{
+		width: 35px;
+	}
 }
-
+li{
+	transition: 0.5s;
+}
+.btn-social{
+		li:hover{
+		color: rgb(44, 62, 80);
+	}
+}
+.rounded-circle i{
+	border: 1px solid white;
+	border-radius: 50%;
+	padding: 10px;
+	&:hover{
+		background-color: white;
+		};
+}
 .p1{
 		line-height: 30px;
 	}
@@ -220,4 +251,27 @@ body{
 	color: white;
 	padding-top: 20px;
 	padding-bottom: 20px;
+}
+
+.modal-portfolio{
+	.modal-content{
+	    border-radius: 0;
+	    background-clip: border-box;
+	    -webkit-box-shadow: none;
+	    box-shadow: none;
+	    border: none;
+	    min-height: 100%;
+	    padding: 100px 0;
+	    text-align: center;
+	 }
+	 h1{
+		font-size: 40px;
+		font-weight: bold;
+		text-transform: uppercase;
+		color: rgb(44, 62, 80);
+		text-align: center;
+	}
+	img{
+		text-align: center;
+	}
 }

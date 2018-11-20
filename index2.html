@@ -12,9 +12,14 @@
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.css" />
 
 
     <link rel="stylesheet"  href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">    
    
   </head>
   <body>
@@ -95,35 +100,81 @@
             <i class="fas fa-minus"></i>
           </span>
         </div>
+        <div class="row margen-img">
+          <div class="img col-xs-12 col-sm-6 col-md-4" id="img">
+            <a href="#portfolioModal1" class="link-modal" data-toggle="modal">
+              <div class="lupita">
+                <div class="contenedor-lupita">
+                  <i class="fa fa-search-plus fa-3x"></i>  
+                </div>
+              </div>
+              <img src="img/portfolio/cabin.png" class="img-responsive">
+            </a>
+          </div>
 
-        <div class="img col-xs-12 col-sm-6 col-md-4" id="img">
-          <img src="img/portfolio/cabin.png" class="img-responsive">
+          <div class="img col-xs-12 col-sm-6 col-md-4" id="img">
+            <a href="#portfolioModal2" class="link-modal" data-toggle="modal">
+              <div class="lupita">
+                <div class="contenedor-lupita">
+                  <i class="fa fa-search-plus fa-3x"></i>  
+                </div>
+              </div>
+              <img src="img/portfolio/cake.png" class="img-responsive">
+            </a>
+          </div>
+
+          <div class="img col-xs-12 col-sm-6 col-md-4" id="img">
+            <a href="#portfolioModal3" class="link-modal" data-toggle="modal">
+              <div class="lupita">
+                <div class="contenedor-lupita">
+                  <i class="fa fa-search-plus fa-3x"></i>  
+                </div>
+              </div>
+              <img src="img/portfolio/circus.png" class="img-responsive">
+            </a>
+          </div>
+
         </div>
 
-        <div class="img col-xs-12 col-sm-6 col-md-4" id="img">
-          <img src="img/portfolio/cake.png" class="img-responsive">
-        </div>
+        <div class="row margen-img">
+          <div class="img col-xs-12 col-sm-6 col-md-4" id="img">
+            <a href="#portfolioModal4" class="link-modal" data-toggle="modal">
+              <div class="lupita">
+                <div class="contenedor-lupita">
+                  <i class="fa fa-search-plus fa-3x"></i>  
+                </div>
+              </div>
+              <img src="img/portfolio/game.png" class="img-responsive">
+            </a>
+          </div>
 
-        <div class="img col-xs-12 col-sm-6 col-md-4">
-          <img src="img/portfolio/circus.png" class="img-responsive">
-        </div>
+          <div class="img col-xs-12 col-sm-6 col-md-4" id="img">
+            <a href="#portfolioModal5" class="link-modal" data-toggle="modal">
+              <div class="lupita">
+                <div class="contenedor-lupita">
+                  <i class="fa fa-search-plus fa-3x"></i>  
+                </div>
+              </div>
+              <img src="img/portfolio/safe.png" class="img-responsive">
+            </a>
+          </div>
 
-        <div class="img col-xs-12 col-sm-6 col-md-4">
-          <img src="img/portfolio/game.png" class="img-responsive">
-        </div>
 
-        <div class="img col-xs-12 col-sm-6 col-md-4">
-          <img src="img/portfolio/safe.png" class="img-responsive">
-        </div>
+          <div class="img col-xs-12 col-sm-6 col-md-4" id="img">
+            <a href="#portfolioModal5" class="link-modal" data-toggle="modal">
+              <div class="lupita">
+                <div class="contenedor-lupita">
+                  <i class="fa fa-search-plus fa-3x"></i>  
+                </div>
+              </div>
+              <img src="img/portfolio/submarine.png" class="img-responsive">
+            </a>
+          </div>
+       
 
-        <div class="img col-xs-12 col-sm-6 col-md-4">
-          <img src="img/portfolio/submarine.png" class="img-responsive">
-        </div>
-        
-
-      </div>
-     </div>
-    </section>
+    </div>
+  </div>
+</section>
 
 
     <section id="about">
@@ -224,7 +275,7 @@
           <div class="img col-xs-12 col-sm-6 col-md-4">
             <h3>AROUND THE WEB</h3>
 
-            <ul class="list-unstyled list-inline btn btn-outline-light btn-social rounded-circle">
+            <ul class="list-unstyled list-inline btn-outline-light btn-social rounded-circle">
               <li><i class="fab fa-facebook-f"></i><a href="#"></a></li>
               <li><i class="fab fa-google-plus"></i><a href="#"></a></li>
               <li><i class="fab fa-twitter"></i><a href="#"></a></li>
@@ -255,6 +306,112 @@
     </div>  
   </section>
 
+
+  <!-- Modals Portfolio -->
+
+  
+  <div class="modal-dialog modal-lg">
+    <div id="portfolioModal1" class="modal-portfolio modal fade" role="dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title">PROJECT TITLE</h1>
+          <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
+        </div>
+        <div class="modal-body">
+          <p>Texto</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-dialog modal-lg">
+    <div id="portfolioModal2" class="modal-portfolio modal fade" role="dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title">PROJECT TITLE</h1>
+          <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="">
+        </div>
+        <div class="modal-body">
+          <p>Texto</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-dialog modal-lg">
+    <div id="portfolioModal3" class="modal-portfolio modal fade" role="dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title">PROJECT TITLE</h1>
+          <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="">
+        </div>
+        <div class="modal-body">
+          <p>Texto</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-dialog modal-lg">
+    <div id="portfolioModal4" class="modal-portfolio modal fade" role="dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title">PROJECT TITLE</h1>
+          <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="">
+        </div>
+        <div class="modal-body">
+          <p>Texto</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-dialog modal-lg">
+    <div id="portfolioModal5" class="modal-portfolio modal fade" role="dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title">PROJECT TITLE</h1>
+          <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="">
+        </div>
+        <div class="modal-body">
+          <p>Texto</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-dialog modal-lg">
+    <div id="portfolioModal6" class="modal-portfolio modal fade" role="dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title">PROJECT TITLE</h1>
+          <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
+        </div>
+        <div class="modal-body">
+          <p>Texto</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
 <section id="copy" class="col-xs-12 text-center">
   
   <h6>Copyright © Your Website 2018</h6>
@@ -262,8 +419,12 @@
 </section>
 
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.js"></script>
+
+
   </body>
 </html>
