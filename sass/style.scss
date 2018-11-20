@@ -118,7 +118,6 @@ body{
 				opacity: 0.8;
 		
 		}
-		
 	}
 	.contenedor-lupita{
 		margin: auto;
@@ -270,17 +269,29 @@ li{
 	    border: none;
 	    min-height: 100%;
 	    padding: 100px 0;
+	    margin-top: 24px;
 	    text-align: center;
-	    align-items: center;
+
 	 }
 	 h1{
+	 	font-family: $font-titles;
 		font-size: 40px;
 		font-weight: bold;
 		text-transform: uppercase;
 		color: $color1;
 		text-align: center;
+		border: none;
 	}
 	img{
-		text-align: center;
+		border: none;
+	}
+	p{
+		border: none;
+		font-family: $textos;
+	}
+	.close{
+		font-size: 50px;
+		font-weight: 400;
 	}
 }
+
